@@ -6,6 +6,7 @@ const { engine } = require ('express-handlebars');
 
 app.use(express.static('public'));
 
+
 app.set('view engine', 'hbs');
 
 app.engine('hbs', engine({ 
